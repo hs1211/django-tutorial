@@ -1,5 +1,7 @@
-# Django Tutorial
 
+![alt text](./icon.jpg)
+
+# Django Basecamp
 장고는 사용 순서에 대하여 정리하고, 이를 구현한다.
 
 ## Import

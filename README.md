@@ -2,9 +2,18 @@
 ![alt text](./icon.jpg)
 
 # Django Basecamp
-장고는 사용 순서에 대하여 정리하고, 이를 구현한다.
+장고는 
 
-## Import
+## Feature
+- [X] Create App
+- [X] Django DB Migration
+- [X] Django Admin
+- [ ] Jinja Template
+
+
+## Convention
+ 
+### Import
 장고 프로젝트에서 임포트하는 방식에 대한 가이드는 아래와 같다. 
 
 ### Import Sequence
@@ -22,23 +31,23 @@
 
 우선 장고 프레임워크를 생성하는 방식은 다음과 같다.
 
-### 사전작업
-- 가상환경 설치
+### Prerequisite
+- Virtual environment
 ```buildoutcfg
 $ python3 -m venv .venv
 ```
 
-- 장고 프로젝트 설치
+- Project creation
 ```buildoutcfg
 $ django-admin.py startproject conf .
 ```
 
-- 장고 앱 생성
+- App creation
 ```buildoutcfg
 $ django-admin.py startapp app(앱이름)
 ```
 
-- 생성구조
+- Project structure
 ```buildoutcfg
 .
 ├── README.md
@@ -59,11 +68,9 @@ $ django-admin.py startapp app(앱이름)
     ├── tests.py
     └── views.py
 ```
-### Cookecutter 사용방식
-- [cookiecutter-django](https://github.com/pydanny/cookiecutter-django)
-
 
 ## Links
+- [cookiecutter-django](https://github.com/pydanny/cookiecutter-django)
 - [django project](https://docs.djangoproject.com/en/2.1/intro/)
 
 
